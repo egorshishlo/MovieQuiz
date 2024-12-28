@@ -2,7 +2,7 @@
 //  StatisticService.swift
 //  MovieQuiz
 //
-//  Created by Vladimir on 08.12.2024.
+//  Created by Егор Шишло on 22.12.24.
 //
 
 import Foundation
@@ -20,7 +20,7 @@ final class StatisticService: StatisticServiceProtocol {
         case date
     }
     
-    let storage = UserDefaults.standard
+    private let storage = UserDefaults.standard
     
     var gamesCount: Int {
         get {
